@@ -1,0 +1,28 @@
+.bank_logo {
+    mix-blend-mode: multiply;
+    width         : 75px;
+    filter        : grayscale();
+    opacity       : 55%;
+}
+
+@supports(object-fit: contain) {
+    .bank_logo {
+        object-fit: contain;
+        height    : 50px
+    }
+}
+
+.fade_in {
+    transition :
+        opacity 1s cubic-bezier(0.155, 0.505, 0.175, 1.000),
+        transform 1s cubic-bezier(0.155, 0.505, 0.175, 1.000);
+}
+
+.fade_in.hidden {
+    opacity  : 0%;
+    transform: translate(0, 100px);
+}
+
+.bank {
+    height: 100px;
+}

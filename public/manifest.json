@@ -1,0 +1,15 @@
+{
+    "short_name": "Sentavo App",
+    "name": "Sentavo App",
+    "icons": [
+        {
+            "src": "https://lh3.googleusercontent.com/S-vNsS3uh48yik96hC7jz1DtE3PAS5Ypuqp_F5Xcy-l1yIF548jA8cbQF1HVaV-Z08UIEV_QKGbvargssBwwZnegHm0kWg",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
