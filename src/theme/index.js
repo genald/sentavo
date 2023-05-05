@@ -1,7 +1,7 @@
 import shadows from './shadows';
 import typography from './typography';
 
-import { createTheme } from '@material-ui/core';
+import { createTheme } from '@mui/material';
 
 const theme = createTheme({
     palette: {
